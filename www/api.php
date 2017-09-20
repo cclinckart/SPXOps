@@ -62,7 +62,7 @@ try {
        if (isset($_POST['o']) && !empty($_POST['o'])) {
          $o = $_POST['o'];
        } 
-       $abj = new Server();
+       $obj = new Server();
        if ($i) {
            $obj->id = $i;
            if ($obj->fetchFromId()) {
